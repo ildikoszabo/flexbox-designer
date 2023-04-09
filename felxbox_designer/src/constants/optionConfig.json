@@ -1,0 +1,139 @@
+[
+  {
+    "Name": "flexDirection",
+    "Values": {
+      "id": "flexDirection",
+      "labelText": "In what order should child items be organized?",
+      "label": "In what order should child items be organized",
+      "eventName": "flexDirection",
+      "itemList": [
+        {
+          "value": "row",
+          "text": "Row - Fit as many as possible in a row"
+        },
+        {
+          "value": "column",
+          "text": "Column - Each one on a new row, one below the other"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "childItemCount",
+    "Values": {
+      "id": "childItemCount",
+      "labelText": "Nr of child items?",
+      "label": "Nr of child items",
+      "eventName": "childItemCount",
+      "itemList": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    }
+  },
+  {
+    "Name": "mainAxisAlignment",
+    "Values": {
+      "id": "mainAxisAlignment",
+      "labelText": "Chose alignment on main axis",
+      "label": "Chose alignment on main axis",
+      "eventName": "mainAxisAlignment",
+      "itemList": [
+        {
+          "value": "start",
+          "text": "start"
+        },
+        {
+          "value": "center",
+          "text": "center"
+        },
+        {
+          "value": "space-between",
+          "text": "space-between"
+        },
+        {
+          "value": "space-around",
+          "text": "space-around"
+        },
+        {
+          "value": "space-evenly",
+          "text": "space-evenly"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "crossAxisAlignment",
+    "Values": {
+      "id": "crossAxisAlignment",
+      "labelText": "Chose alignment on cross axis",
+      "label": "Chose alignment on cross axis",
+      "eventName": "crossAxisAlignment",
+      "itemList": [
+        {
+          "value": "start",
+          "text": "start"
+        },
+        {
+          "value": "center",
+          "text": "center"
+        },
+        {
+          "value": "end",
+          "text": "end"
+        },
+        {
+          "value": "strech",
+          "text": "strech"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "flexWrap",
+    "Values": {
+      "id": "flexWrap",
+      "labelText": "Wrap items on new row if they don't fit?",
+      "label": "Wrap items on new row if they don't fit",
+      "eventName": "flexWrap",
+      "itemList": [
+        {
+          "value": "nowrap",
+          "text": "No"
+        },
+        {
+          "value": "wrap",
+          "text": "Yes"
+        },
+        {
+          "value": "wrap-reverse",
+          "text": "Yes, in reverse order"
+        }
+      ]
+    }
+  },
+  {
+    "Name": "alignContent",
+    "Values": {
+      "id": "alignContent",
+      "labelText": "How to align elements in different lines?",
+      "label": "How to align elements in different lines",
+      "eventName": "alignContent",
+      "itemList": [
+        {
+          "value": "start",
+          "text": "start"
+        },
+        {
+          "value": "center",
+          "text": "center"
+        },
+        {
+          "value": "space-between",
+          "text": "space-between"
+        },
+        {
+          "value": "space-around",
+          "text": "space-around"
+        }
+      ]
+    }
+  }
+]
