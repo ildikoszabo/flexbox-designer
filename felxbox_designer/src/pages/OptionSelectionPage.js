@@ -97,7 +97,11 @@ export default function OptionSelection() {
   };
 
   return (
-    <div>
+    <div
+      style={{
+        paddingBottom: "60px",
+      }}
+    >
       <div
         style={{
           paddingTop: "60px",
@@ -199,6 +203,17 @@ export default function OptionSelection() {
             {JSON.stringify(childStyle)}
           </Box>
         </div>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          paddingLeft: "100px",
+          paddingRight: "100px",
+          paddingTop: "50px",
+        }}
+      >
+        @ <a href="https://ipuzzletoo.azurewebsites.net">i puzzle too</a>
       </div>
     </div>
   );
